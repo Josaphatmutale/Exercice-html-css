@@ -1,0 +1,93 @@
+.carre, .bloc{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.black{
+    height: 150px;
+    width: 175px;
+    background-color: black;
+}
+
+.red{
+    height: 150px;
+    width: 175px;
+    background-color: red;
+}
+
+hr{
+ border-color: #ededed;
+ margin-top: 30px;
+}
+
+/* ----------- Deuxième exercice----------------------------------- */
+.yellow{
+    height: 150px;
+    width: 175px;
+    background-color: yellow;
+}
+
+.green{
+    height: 150px;
+    width: 175px;
+    background-color: green;
+}
+
+.bloc{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    gap: 35px;
+}
+
+.bloc p{
+    padding:  20px 0;
+}
+
+/* ----------------------------- 3e exercice--------------------------------------------- */
+.bloc-colors{
+    margin: 50px 180px;
+    font-weight: bold;
+    color: white;
+}
+
+.bloc-colors p{
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.bloc-colors .header{
+    background-color: red;
+    width: 70vw;
+    height: 15vh;
+    border: 1px solid #ededed;
+}
+
+.bloc-colors .main{
+    display: flex;
+    gap: 35px;
+}
+
+.main .left{
+    background-color: darkcyan;
+    width: 50vw;
+    height: 85vh;
+    border: 1px solid #ededed;
+}
+
+.main .right{
+    background-color: pink;
+    width: 17.2vw;
+    height: 60vh;
+    border: 1px solid #ededed;
+}
+
+.footer
+{
+    background-color: greenyellow;
+    width: 70vw;
+    height: 15vh;
+    border: 1px solid #ededed;
+}
