@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .carre, .bloc{
     display: flex;
     margin-top: 50px;
@@ -5,16 +9,32 @@
 }
 
 .black{
-    height: 150px;
-    width: 175px;
+    height: 35vh;
+    width: 20vw;
     background-color: black;
 }
 
 .red{
-    height: 150px;
-    width: 175px;
+    height: 35vh;
+    width: 20vw;
     background-color: red;
 }
+
+/*--------------------------- JS------------------------------------------------ */
+.pinkBloc{
+    height: 35vh;
+    width: 20vw;
+    background-color: pink;
+    transition: 0.45s;
+}
+
+.yellowBloc{
+    height: 35vh;
+    width: 20vw;
+    background-color: yellow;
+    transition: 0.45s;
+}
+
 
 hr{
  border-color: #ededed;
@@ -23,14 +43,14 @@ hr{
 
 /* ----------- Deuxième exercice----------------------------------- */
 .yellow{
-    height: 150px;
-    width: 175px;
+    height: 35vh;
+    width: 20vw;
     background-color: yellow;
 }
 
 .green{
-    height: 150px;
-    width: 175px;
+    height: 35vh;
+    width: 20vw;
     background-color: green;
 }
 
@@ -65,9 +85,10 @@ hr{
     border: 1px solid #ededed;
 }
 
-.bloc-colors .main{
+.main{
     display: flex;
-    gap: 35px;
+    width: 100%;
+    height: 100%;
 }
 
 .main .left{
@@ -82,6 +103,7 @@ hr{
     width: 17.2vw;
     height: 60vh;
     border: 1px solid #ededed;
+    margin-left:35px;
 }
 
 .footer
@@ -91,3 +113,106 @@ hr{
     height: 15vh;
     border: 1px solid #ededed;
 }
+
+/* -------------------------------------- site web--------------------------------------------- */
+.otherPage{
+    text-decoration: none;
+    color: red;
+}
+
+p a:hover{
+    border-bottom: 2px solid red;
+}
+.restaurant{
+    background: url(../img/back-cover.jpg);
+    background-size: cover;
+}
+
+.restaurant .wrapper{
+    background-color: #edededce;
+    height: auto;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.header{
+   text-align: center;
+}
+
+.header img{
+    height: 15vh;
+    margin: 30px 0;
+}
+
+.header .navBar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    font-weight: bolder;
+   
+}
+
+li a{
+    text-decoration: none ;
+    color: black;
+    padding: 0 20px; 
+    border-right: 1px solid black;
+}
+
+li a:hover{
+    color: rgba(235, 154, 5, 0.897);
+    font-weight: bolder;
+    transition: 0.50s;
+}
+
+.dicton{
+    text-align: end;
+    margin: 0 10px;
+}
+
+.main-fourchette{
+    display: flex;
+}
+
+.main-fourchette .left{
+    margin: 35px 0;
+}
+
+.main-fourchette .right{
+    margin-top: 35px;
+    padding-right: 100px;
+}
+
+
+.right .reconnaissance{
+    padding: 0;
+}
+
+.left h3,h4,p {
+    padding: 10px 15px;
+}
+
+.right h1,.reconnaissance{
+    margin: 0 12px ;
+}
+
+.right h3{
+    margin: 10px 12px;
+}
+
+.biscuits-types .images-biscuits{
+    gap: 10px;
+    display: flex;
+}
+
+.biscuits-types .names-biscuits{
+  display: flex;
+  gap: 75px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
